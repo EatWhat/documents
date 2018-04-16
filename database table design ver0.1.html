@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html class="theme theme-white">
+<head>
+<meta charset="utf-8">
+<title>database table design ver0.1</title>
+<link href="https://www.zybuluo.com/static/assets/template-theme-white.css" rel="stylesheet" media="screen">
+<style type="text/css">
+
+#wmd-preview h1  {
+    color: #0077bb; /* 将标题改为蓝色 */
+}</style>
+</head>
+<body class="theme theme-white">
+<div id="wmd-preview" class="wmd-preview wmd-preview-full-reader"><div class="md-section-divider"></div><div class="md-section-divider"></div><h1 data-anchor-id="v9ud" id="database-table-design-ver01">database table design ver0.1</h1><hr><div class="md-section-divider"></div><h2 data-anchor-id="klet" id="dinners">dinners</h2><table data-anchor-id="230o" class="table table-striped-white table-bordered">
+<thead>
+<tr>
+ <th style="text-align:center;">字段</th>
+ <th style="text-align:center;">类型</th>
+ <th style="text-align:center;">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+ <td style="text-align:center;">d_id</td>
+ <td style="text-align:center;">int unsigned not null auto_increment</td>
+ <td style="text-align:center;">主键，用餐者id</td>
+</tr>
+<tr>
+ <td style="text-align:center;">username</td>
+ <td style="text-align:center;">varchar(32) not null</td>
+ <td style="text-align:center;">用户名。通常就是微信号</td>
+</tr>
+<tr>
+ <td style="text-align:center;">phone</td>
+ <td style="text-align:center;">varchar(16) not null</td>
+ <td style="text-align:center;">电话</td>
+</tr>
+<tr>
+ <td style="text-align:center;">address</td>
+ <td style="text-align:center;">json</td>
+ <td style="text-align:center;">送餐地址。ex.{{'address_id':1,'place':'肾六楼下'},{'address_id':1,'place':'公教楼'}}</td>
+</tr>
+</tbody></table><p data-anchor-id="hyer"><strong>注：看需求要不要加点额外信息。比如红包啥的</strong></p><div class="md-section-divider"></div><h2 data-anchor-id="09vy" id="sellers">sellers</h2><table data-anchor-id="rtbm" class="table table-striped-white table-bordered">
+<thead>
+<tr>
+ <th style="text-align:center;">字段</th>
+ <th style="text-align:center;">类型</th>
+ <th style="text-align:center;">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+ <td style="text-align:center;">s_id</td>
+ <td style="text-align:center;">int unsigned not null auto_increment</td>
+ <td style="text-align:center;">主键，商家id</td>
+</tr>
+<tr>
+ <td style="text-align:center;">username</td>
+ <td style="text-align:center;">varchar(32) not null</td>
+ <td style="text-align:center;">用户名。不必是微信号</td>
+</tr>
+<tr>
+ <td style="text-align:center;">food</td>
+ <td style="text-align:center;">json</td>
+ <td style="text-align:center;">出售中食物。ex. {{'food_id':1, 'food_name': '麻辣香锅', 'food_price': 25, 'num':1}, {'food_id':2, 'food_name': '台湾卤肉饭', 'food_price': 13, 'num':1}}</td>
+</tr>
+</tbody></table><p data-anchor-id="209x"><strong>注：商家的注册信息，营业执照等信息不放在数据库里</strong></p><div class="md-section-divider"></div><h2 data-anchor-id="fp6d" id="orders">orders</h2><table data-anchor-id="q585" class="table table-striped-white table-bordered">
+<thead>
+<tr>
+ <th style="text-align:center;">字段</th>
+ <th style="text-align:center;">类型</th>
+ <th style="text-align:center;">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+ <td style="text-align:center;">o_id</td>
+ <td style="text-align:center;">int unsigned not null auto_increment</td>
+ <td style="text-align:center;">主键，订单id</td>
+</tr>
+<tr>
+ <td style="text-align:center;">d_id</td>
+ <td style="text-align:center;">int unsigned not null</td>
+ <td style="text-align:center;">外键，用餐者id</td>
+</tr>
+<tr>
+ <td style="text-align:center;">s_id</td>
+ <td style="text-align:center;">int unsigned not null</td>
+ <td style="text-align:center;">外键，商家id</td>
+</tr>
+<tr>
+ <td style="text-align:center;">date</td>
+ <td style="text-align:center;">varchar(32) not null</td>
+ <td style="text-align:center;">下单时间</td>
+</tr>
+<tr>
+ <td style="text-align:center;">price</td>
+ <td style="text-align:center;">int unsigned</td>
+ <td style="text-align:center;">订单金额</td>
+</tr>
+<tr>
+ <td style="text-align:center;">food</td>
+ <td style="text-align:center;">json</td>
+ <td style="text-align:center;">具体食物。ex.{{'food_id':1, 'food_name': '麻辣香锅', 'food_price': 25, 'num':1},{'food_id':3, 'food_name': '白饭', 'food_price': 2, 'num':1}}</td>
+</tr>
+<tr>
+ <td style="text-align:center;">comment</td>
+ <td style="text-align:center;">json</td>
+ <td style="text-align:center;">用户评价。ex.{'star':5, 'text': '我永远喜欢冬阴功', 'hide_name':True}</td>
+</tr>
+</tbody></table><div class="md-section-divider"></div><h2 data-anchor-id="o6gz" id="cookies">cookies</h2><table data-anchor-id="f98t" class="table table-striped-white table-bordered">
+<thead>
+<tr>
+ <th style="text-align:center;">字段</th>
+ <th style="text-align:center;">类型</th>
+ <th style="text-align:center;">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+ <td style="text-align:center;">c_id</td>
+ <td style="text-align:center;">int unsigned not null auto_increment</td>
+ <td style="text-align:center;">主键，id</td>
+</tr>
+<tr>
+ <td style="text-align:center;">d_id</td>
+ <td style="text-align:center;">int unsigned not null</td>
+ <td style="text-align:center;">外键，用餐者id</td>
+</tr>
+<tr>
+ <td style="text-align:center;">s_id</td>
+ <td style="text-align:center;">int unsigned not null</td>
+ <td style="text-align:center;">外键，商家id</td>
+</tr>
+<tr>
+ <td style="text-align:center;">food</td>
+ <td style="text-align:center;">json</td>
+ <td style="text-align:center;">购物车里的东西。ex.{{'food_id':1, 'food_name': '麻辣香锅', 'food_price': 25, 'num':1},{'food_id':3, 'food_name': '白饭', 'food_price': 2, 'num':1}}</td>
+</tr>
+</tbody></table><p data-anchor-id="o09g">by two2er.</p></div>
+</body>
+</html>
