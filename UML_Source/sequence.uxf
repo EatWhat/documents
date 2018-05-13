@@ -4,8 +4,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>27</y>
+      <x>594</x>
+      <y>72</y>
       <w>27</w>
       <h>630</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>504</x>
-      <y>9</y>
+      <x>558</x>
+      <y>54</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>27</y>
+      <x>162</x>
+      <y>72</y>
       <w>27</w>
       <h>630</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>72</x>
-      <y>9</y>
+      <x>126</x>
+      <y>54</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -48,8 +48,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>378</x>
-      <y>27</y>
+      <x>432</x>
+      <y>72</y>
       <w>27</w>
       <h>639</h>
     </coordinates>
@@ -59,8 +59,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>342</x>
-      <y>9</y>
+      <x>396</x>
+      <y>54</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -70,8 +70,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>216</x>
-      <y>9</y>
+      <x>270</x>
+      <y>54</y>
       <w>90</w>
       <h>27</h>
     </coordinates>
@@ -81,8 +81,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>27</y>
+      <x>306</x>
+      <y>72</y>
       <w>27</w>
       <h>234</h>
     </coordinates>
@@ -92,8 +92,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>108</x>
-      <y>72</y>
+      <x>162</x>
+      <y>117</y>
       <w>18</w>
       <h>90</h>
     </coordinates>
@@ -104,8 +104,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>252</x>
-      <y>72</y>
+      <x>306</x>
+      <y>117</y>
       <w>18</w>
       <h>90</h>
     </coordinates>
@@ -116,8 +116,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>117</x>
-      <y>72</y>
+      <x>171</x>
+      <y>117</y>
       <w>153</w>
       <h>36</h>
     </coordinates>
@@ -128,8 +128,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>117</x>
-      <y>126</y>
+      <x>171</x>
+      <y>171</y>
       <w>153</w>
       <h>36</h>
     </coordinates>
@@ -140,8 +140,8 @@
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>99</x>
-      <y>45</y>
+      <x>153</x>
+      <y>90</y>
       <w>189</w>
       <h>135</h>
     </coordinates>
@@ -151,8 +151,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>189</y>
+      <x>162</x>
+      <y>234</y>
       <w>171</w>
       <h>45</h>
     </coordinates>
@@ -164,8 +164,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>261</y>
+      <x>162</x>
+      <y>306</y>
       <w>297</w>
       <h>36</h>
     </coordinates>
@@ -176,8 +176,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>297</y>
+      <x>162</x>
+      <y>342</y>
       <w>297</w>
       <h>36</h>
     </coordinates>
@@ -188,8 +188,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>333</y>
+      <x>162</x>
+      <y>378</y>
       <w>297</w>
       <h>36</h>
     </coordinates>
@@ -200,8 +200,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>360</y>
+      <x>162</x>
+      <y>405</y>
       <w>297</w>
       <h>36</h>
     </coordinates>
@@ -212,8 +212,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>387</y>
+      <x>162</x>
+      <y>432</y>
       <w>297</w>
       <h>36</h>
     </coordinates>
@@ -224,8 +224,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>414</y>
+      <x>162</x>
+      <y>459</y>
       <w>297</w>
       <h>36</h>
     </coordinates>
@@ -236,8 +236,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>441</y>
+      <x>162</x>
+      <y>486</y>
       <w>297</w>
       <h>36</h>
     </coordinates>
@@ -248,67 +248,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>468</y>
-      <w>297</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-返回具体菜品信息</panel_attributes>
-    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>108</x>
-      <y>549</y>
-      <w>297</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;
-用户提交订单</panel_attributes>
-    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>378</x>
-      <y>576</y>
-      <w>189</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;
-传递订单信息到店家</panel_attributes>
-    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>378</x>
-      <y>594</y>
-      <w>189</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-返回店家是否接单</panel_attributes>
-    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>378</x>
-      <y>486</y>
-      <w>189</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-店家修改菜品信息</panel_attributes>
-    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>108</x>
+      <x>162</x>
       <y>513</y>
       <w>297</w>
       <h>36</h>
@@ -320,8 +260,68 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>108</x>
-      <y>612</y>
+      <x>162</x>
+      <y>594</y>
+      <w>297</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+用户提交订单</panel_attributes>
+    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>621</y>
+      <w>189</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+传递订单信息到店家</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>639</y>
+      <w>189</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+返回店家是否接单</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>531</y>
+      <w>189</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+店家修改菜品信息</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>162</x>
+      <y>558</y>
+      <w>297</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+返回具体菜品信息</panel_attributes>
+    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>162</x>
+      <y>657</y>
       <w>297</w>
       <h>36</h>
     </coordinates>
