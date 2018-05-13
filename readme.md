@@ -1,5 +1,5 @@
 # Dashboard
-Record the whole development process of Guangzhou.
+Record the whole development process of **EatWhat**.
 # Core Artifacts
 - 1、[About(项目规划)](https://eatwhat.github.io/)
 - 2、[Team profile(团队组建)](https://github.com/EatWhat/EatWhat.github.io/blob/master/_posts/2018-04-15-Team%20Profile.md)
