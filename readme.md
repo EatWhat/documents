@@ -11,7 +11,11 @@ Record the whole development process of **EatWhat**.
 	- 6.2 [Use Cases (用例+活动图)](https://github.com/EatWhat/documents/blob/master/_usecase.png)
 	- 6.3 [Domian Model (领域模型)](https://github.com/EatWhat/documents/blob/master/_domain.png)
 	- 6.4 [State Model (状态模型)](https://github.com/EatWhat/documents/blob/master/_state.png)
-	- 6.5 [System Sequence Diagram (功能模型)](https://github.com/EatWhat/documents/blob/master/sequence.png)
+	- 6.5 System Sequence Diagram (功能模型)
+		- [订单拒绝以及重新修改场景 - 15331118](https://github.com/EatWhat/documents/blob/master/sequence.png)
+		- [订单支付场景 - 15331119](https://github.com/EatWhat/documents/blob/master/_payment_sequence.png)
+		- [商家地址定位场景 - 15331101](https://github.com/EatWhat/documents/blob/master/address_search_restaurant_sequence.png)
+		- [微信登陆场景 - 15331099](https://github.com/EatWhat/documents/blob/master/%E5%BE%AE%E4%BF%A1%E7%99%BB%E5%BD%95%E9%A1%BA%E5%BA%8F%E5%9B%BE.png)
 - 7、Design(设计)
 	- 7.1 UI design
 		- ["食咩啊"App用例 UI设计](https://github.com/EatWhat/EatWhat.github.io/blob/master/_posts/2018-04-14-UI%20Diagram.md)
