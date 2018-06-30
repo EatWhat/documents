@@ -45,6 +45,7 @@ Record the whole development process of **EatWhat**.
 - 8、生产规范与指南
 	- 8.1 安卓代码规范
 	- 8.2 REST API设计规范
+	- 8.4 [部署项目](https://github.com/EatWhat/back-end/blob/master/readme.md)
 - X1 meeting_recording
 	- [meeting_recording(18/04/15)](https://eatwhat.github.io/2018-04-15-meeting_record/)
 	- Iteration X meeting(yy/mm/dd)
